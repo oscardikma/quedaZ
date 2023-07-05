@@ -73,15 +73,37 @@ const Formulary = () => {
       </select>
       <br />
 
+      {/**informando causa da queda */}
       <label>Causa da queda</label><br />
       <select className="form-control">
         <option value="escolha">Escolha</option>
+        <option value=""> Umidade Material Elevada</option>
+        <option value="">Partida Correia Cheia</option>
+        <option value="">Limpeza do balão de pó </option>
+        <option value="">Retorno </option>
       </select>
       <br/>
 
       <label>Destino Final</label><br />
-      <select  className="form-control" id='lastSelect'>
-        <option value="escolha">Escolha</option>
+      <select className="form-control" id='lastSelect'>
+
+        <option value="">Escolha uma opção</option>
+        <option value="AF1 - Baia 7 - Degradado de Minério">AF1 - Baia 7 - Degradado de Minério</option>
+        <option value="AF2 - Baia 87 - Material Contaminado - Lado Pátio de Coque GHK3">AF2 - Baia 87 - Material Contaminado - Lado Pátio de Coque GHK3</option>
+        <option value="AF3 - Baia 88 - Degradado de Minério - Lado Despoeiramento">AF3 - Baia 88 - Degradado de Minério - Lado Despoeiramento</option>
+        <option value="Retorno ao Processo">Retorno ao Processo</option>
+        <option value="AF3 - Baia 89 - Degradado de Coque - Lado Despoeiramento">AF3 - Baia 89 - Degradado de Coque - Lado Despoeiramento</option>
+        <option value="AF3 - Baia 89 - Degradado de Coque - Lado Avenida Principal">AF3 - Baia 89 - Degradado de Coque - Lado Avenida Principal</option>
+        <option value="AF2 - Baia 88 - Degradado de Minério - Lado Pátio de Coque GHK3">AF2 - Baia 88 - Degradado de Minério - Lado Pátio de Coque GHK3</option>
+        <option value="AF3 - Baia 87 - Material Contaminado - Lado Avenida Principal">AF3 - Baia 87 - Material Contaminado - Lado Avenida Principal</option>
+        <option value="AF1 - Baia 8 - Degradado de Coque">AF1 - Baia 8 - Degradado de Coque</option>
+        <option value="AF3 - Baia 87 - Material Contaminado - Lado Despoeiramento">AF3 - Baia 87 - Material Contaminado - Lado Despoeiramento</option>
+        <option value="Outros">Outros</option>
+        <option value="AF1 - Baia 6 - Material Contaminado">AF1 - Baia 6 - Material Contaminado</option>
+        <option value="AF3 - Baia 88 - Degradado de Minério - Lado Avenida Principal">AF3 - Baia 88 - Degradado de Minério - Lado Avenida Principal</option>
+        <option value="AF1 - Baia 8 - Degradado de Minério">AF1 - Baia 8 - Degradado de Minério</option>
+
+
       </select>
       <br/>
       <button className="btn btn-primary" value='enviar'>Enviar Dados</button>
