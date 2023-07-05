@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/quedazero/static/css/main.073c9b0a.css",
-    "main.js": "/quedazero/static/js/main.3dd68b2c.js",
-    "static/js/787.b60b7e14.chunk.js": "/quedazero/static/js/787.b60b7e14.chunk.js",
-    "static/media/logo.svg": "/quedazero/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/quedazero/index.html",
-    "main.073c9b0a.css.map": "/quedazero/static/css/main.073c9b0a.css.map",
-    "main.3dd68b2c.js.map": "/quedazero/static/js/main.3dd68b2c.js.map",
-    "787.b60b7e14.chunk.js.map": "/quedazero/static/js/787.b60b7e14.chunk.js.map"
+    "main.css": "/quedaZ/static/css/main.073c9b0a.css",
+    "main.js": "/quedaZ/static/js/main.f5169c28.js",
+    "static/js/787.b60b7e14.chunk.js": "/quedaZ/static/js/787.b60b7e14.chunk.js",
+    "static/media/logo.svg": "/quedaZ/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/quedaZ/index.html",
+    "main.073c9b0a.css.map": "/quedaZ/static/css/main.073c9b0a.css.map",
+    "main.f5169c28.js.map": "/quedaZ/static/js/main.f5169c28.js.map",
+    "787.b60b7e14.chunk.js.map": "/quedaZ/static/js/787.b60b7e14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.3dd68b2c.js"
+    "static/js/main.f5169c28.js"
   ]
 }
