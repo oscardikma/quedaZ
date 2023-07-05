@@ -26,25 +26,43 @@ input {
 
 button {
   text-align: center;
-  margin-top: auto;
-  margin-bottom: 10px;
+ 
+ 
  
 }
 
 #formulario {
-  background-color:rgba(255, 255, 255, 0.151);
-  height:50%;
- margin-bottom: auto;
+  background-color: rgba(255, 255, 255, 0.151);
+  height: 50%;
+  margin-bottom: auto;
   margin-top: auto;
-
   text-align: center;
-  border:2px solid rgb(37, 43, 11);
+  border: 2px solid rgb(12, 14, 3);
+  border-bottom: none;
+  border-top: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#formulario input,
+#formulario select,
+#formulario textarea {
+  box-shadow: 0 2px 4px rgba(148, 3, 3, 0.25);
+}
+/*
+#formulario {
+  background-color: rgba(255, 255, 255, 0.151);
+  height: 50%;
+  margin-bottom:auto;
+  margin-top: auto;
+  text-align: center;
+  border: 2px solid rgb(12, 14, 3);
   box-shadow: rgba(255, 255, 255, 0.151);
   border-bottom: none;
   border-top: none;
   border-radius: 5px;
-  padding:auto;
-}
+  padding: 10px;
+}*/
 .form-row{
   background-color:rgba(5, 0, 0, 0.644);
   color:white;
