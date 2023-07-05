@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  background-color: rgba(5, 0, 0, 0.644);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  color: white;
+ align-items: center;
+
+}
+
+/* Estilos para dispositivos não móveis */
+
+@media not all and (max-width: 900px) {
+
+  /* Seu código CSS aqui */
+  /* Por exemplo, ocultar elementos específicos */
+  body {
+    display: none;
+  }
+}
+
+@media not all and (max-height: 750px) {
+
+  /* Seu código CSS aqui */
+  /* Por exemplo, ocultar elementos específicos */
+  body {
+    display: none;
+  }
 }
