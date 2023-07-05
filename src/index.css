@@ -1,13 +1,21 @@
 html {
-  background-color: rgba(5, 0, 0, 0.644);
+ background-image:url('./assets/backgroun1.jpg');
+ background-size: auto;
 
 }
 
 body {
   color: white;
  align-items: center;
+ background-image:url('./assets/backgroun1.jpg');
+ background-size: auto;
 
 }
+
+.App{
+ background-color: rgba(66, 15, 15, 0.877);
+}
+  
 
 /* Estilos para dispositivos não móveis */
 

@@ -31,11 +31,17 @@ button {
 }
 
 #formulario {
+  background-color:rgba(255, 255, 255, 0.151);
   height:50%;
-  margin-top:1%;
+ margin-bottom: auto;
+  margin-top: auto;
+
   text-align: center;
   border:2px solid rgb(37, 43, 11);
-  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.151);
+  border-bottom: none;
+  border-top: none;
+  border-radius: 5px;
   padding:auto;
 }
 .form-row{
