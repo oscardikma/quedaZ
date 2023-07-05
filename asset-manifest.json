@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/quedaZ/static/css/main.d681860d.css",
+    "main.css": "/quedaZ/static/css/main.49c72c9c.css",
     "main.js": "/quedaZ/static/js/main.82d25eec.js",
     "static/js/787.b60b7e14.chunk.js": "/quedaZ/static/js/787.b60b7e14.chunk.js",
     "static/media/backgroun1.jpg": "/quedaZ/static/media/backgroun1.7fccd9b68ff9ca0449cf.jpg",
     "index.html": "/quedaZ/index.html",
-    "main.d681860d.css.map": "/quedaZ/static/css/main.d681860d.css.map",
+    "main.49c72c9c.css.map": "/quedaZ/static/css/main.49c72c9c.css.map",
     "main.82d25eec.js.map": "/quedaZ/static/js/main.82d25eec.js.map",
     "787.b60b7e14.chunk.js.map": "/quedaZ/static/js/787.b60b7e14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d681860d.css",
+    "static/css/main.49c72c9c.css",
     "static/js/main.82d25eec.js"
   ]
 }
