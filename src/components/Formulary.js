@@ -65,7 +65,7 @@ const Formulary = () => {
       <br />
       <label>Informe o Peso do material</label>
       <br />
-      <input  className="form-control" type="text" />
+      <input  className="form-control" type="Number" />
       <br />
       <label>Selecione a Origem do Material</label><br />
       <select className="form-control" value={origemSelecionada} onChange={handleOrigemChange}>
