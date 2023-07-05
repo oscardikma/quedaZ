@@ -14,7 +14,9 @@ body {
 
 .App{
  background-color: rgba(66, 15, 15, 0.877);
+ height: auto;
 }
+
   
 
 /* Estilos para dispositivos não móveis */
