@@ -16,10 +16,9 @@ body {
   
 
 /* Estilos para dispositivos não móveis */
-
 @media not all and (max-width: auto) {
 
-  /* Seu código CSS aqui */
+  
   /* Por exemplo, ocultar elementos específicos */
   body {
     display: none;
@@ -28,7 +27,7 @@ body {
 
 @media not all and (max-height: 900) {
 
-  /* Seu código CSS aqui */
+
   /* Por exemplo, ocultar elementos específicos */
   body {
     display: none;

@@ -1,15 +1,12 @@
 import './App.css';
 import Formulary from './components/Formulary';
-import Botão from './components/Botão';
+//<Formulary id='formulario' />
 
 function App() {
   return (
     <div className="App">
-      <Formulary id='formulario'/>
-      <Botão/>
-    
+      <Formulary id='formulario' />
     </div>
   );
 }
-
 export default App; 

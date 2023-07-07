@@ -33,7 +33,15 @@ const Formulary = () => {
   };
 
   return (
+    
     <div className="form-row" id='formulario'>
+      <div id='login'>
+      <input type='text' placeholder='informe seu usuario'/><br/>
+      <input type='text' placeholder='informe seu usuario'/><br/>
+      <button onClick={logar}>Entrar</button>
+
+      </div>
+      <div id='form'>
       <h1>QuedaZero</h1>
       <br />
       <label>Informe a data</label>
@@ -107,8 +115,15 @@ const Formulary = () => {
       </select>
       <br/>
       <button className="btn btn-primary" value='enviar'>Enviar Dados</button>
-    </div>
+      </div>
+      </div>
+    
   );
+  function logar(){
+      document.getElementById('login').style.display='none'
+      document.getElementById('form').style.display='block'
+    
+  }
 };
 
 export default Formulary;
