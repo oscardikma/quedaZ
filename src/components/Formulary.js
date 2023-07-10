@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import BoxLogin from './BoxLogin';
 const Formulary = () => {
   const [areaSelecionada, setAreaSelecionada] = useState('escolha');
   const [origemSelecionada, setOrigemSelecionada] = useState('escolha');
@@ -36,9 +37,7 @@ const Formulary = () => {
     
     <div className="form-row" id='formulario'>
       <div id='login'>
-      <input type='text' placeholder='informe seu usuario'/><br/>
-      <input type='text' placeholder='informe seu usuario'/><br/>
-      <button onClick={logar}>Entrar</button>
+    <BoxLogin/>
 
       </div>
       <div id='form'>
@@ -119,11 +118,7 @@ const Formulary = () => {
       </div>
     
   );
-  function logar(){
-      document.getElementById('login').style.display='none'
-      document.getElementById('form').style.display='block'
-    
-  }
+ 
 };
 
 export default Formulary;
