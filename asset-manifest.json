@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/quedaZ/static/css/main.17640afb.css",
-    "main.js": "/quedaZ/static/js/main.1431eec2.js",
+    "main.js": "/quedaZ/static/js/main.e6d4f958.js",
     "static/js/787.b60b7e14.chunk.js": "/quedaZ/static/js/787.b60b7e14.chunk.js",
     "index.html": "/quedaZ/index.html",
     "main.17640afb.css.map": "/quedaZ/static/css/main.17640afb.css.map",
-    "main.1431eec2.js.map": "/quedaZ/static/js/main.1431eec2.js.map",
+    "main.e6d4f958.js.map": "/quedaZ/static/js/main.e6d4f958.js.map",
     "787.b60b7e14.chunk.js.map": "/quedaZ/static/js/787.b60b7e14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17640afb.css",
-    "static/js/main.1431eec2.js"
+    "static/js/main.e6d4f958.js"
   ]
 }
