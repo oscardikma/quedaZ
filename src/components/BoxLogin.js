@@ -18,7 +18,7 @@ const BoxLogin = () => {
     };
 
     useEffect(() => {
-        lembrando(true)
+        lembrando(false)
       },);
     //provisioriamente vai ser assim mas o valor se o usuario esta sendo lembrado ficará guardado em bd
     const handleRememberMeChange = (event) => {
