@@ -5,20 +5,21 @@ import { faUser, faLock } from '@fortawesome/free-solid-svg-icons';
 const BoxLogin = () => {
     const [user, setUser] = useState('');
     const [pass, setPass] = useState('');
-    const [rem, setRem] = useState(false)
+    const [rem] = useState(true)
 
 
     const handleLogin = () => {
         if (user === 'admin' && pass === 'dikma') {
             document.getElementById('login').style.display = 'none'
             document.getElementById('form').style.display = 'block'
+          
         } else {
             alert('Usuario ou senha incorreto, tente novamente!')
         }
     };
 
     useEffect(() => {
-        lembrando(false)
+        lembrando(false) //vaiu ser usado para lembrar a preferencia do usuario
       },);
     //provisioriamente vai ser assim mas o valor se o usuario esta sendo lembrado ficará guardado em bd
     const handleRememberMeChange = (event) => {
@@ -26,7 +27,7 @@ const BoxLogin = () => {
             document.getElementById('login').style.display = 'none'
             document.getElementById('form').style.display = 'block'
         }
-        setRem(event.target.checked);
+       //setRem(event.target.checked);
     };
 
     const lembrando = (estado) => {
